@@ -28,7 +28,7 @@ module.exports = {
         // the only required plugin option for WordPress is the GraphQL url.
         url:
           process.env.WPGRAPHQL_URL ||
-          `https://bant-n-chat.online/graphql`,
+          `https://bnc.hiaem.com/graphql`,
       },
     },
 
