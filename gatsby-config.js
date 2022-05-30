@@ -30,6 +30,9 @@ module.exports = {
           process.env.WPGRAPHQL_URL ||
           `https://bnc.hiaem.com/graphql`,
       },
+      schema: {
+      timeout: 30000,
+    },
     },
 
     /**
